@@ -1,4 +1,3 @@
-//import { collection, onSnapshot,doc,getDoc, query,where } from 'firebase/firestore';
 import React, { useState, useContext } from 'react';
 import { FormControl, Button, Form } from 'react-bootstrap'
 import db from './firebase/Firebase';

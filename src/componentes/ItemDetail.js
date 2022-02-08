@@ -23,7 +23,7 @@ function ItemDetail({ id, img, title, description, price, amount }) {
 
 
     return (
-        <div /* className='box' */>
+        <div>
             <div className='card mb-3 my-3  ' style={{ maxWidth: "540px" }}>
                 <div className='row g-0'>
                     <div className='col-md-4'>

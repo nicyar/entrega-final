@@ -1,11 +1,9 @@
 import React, { useContext, useState } from 'react'
-import { SearchContext } from './SearchContext';
 import { Link } from 'react-router-dom'
 import { CartContext } from './CartContext'
 import Model from './Model'
 
 const Cart = () => {
-    const { search } = useContext(SearchContext)
     const { items, removeItem } = useContext(CartContext)
     const [openModal, setOpenModal] = useState(false)
 

@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button, Modal } from 'react-bootstrap';
 import { CartContext } from './CartContext';
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
+import Swal from 'sweetalert2'
 
 
 const Model = ({ closeModal }) => {
     
-    const [lastId, setLastId] = useState()
     const db = getFirestore();
     const { items } = useContext(CartContext)
 
@@ -43,7 +43,11 @@ const Model = ({ closeModal }) => {
         }
 
         const { id } = await addDoc(collection(db, "orders"), order);
-        alert(`La compra fue exitosa id:  ${id}`)
+        Swal.fire(
+            'compra finalizada',
+            `ticket:${id}`,
+            'success'
+          )
     }
 
 
