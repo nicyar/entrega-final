@@ -27,8 +27,6 @@ todas estas tecnologias fueron descargadas para luegos se llamadas dentro de la 
 	`npm start`
 para correr el proyecto, dentro de http://localhost:3000
 
-
-video realizando la compra
 ![gif de compra](https://media.giphy.com/media/lzfHAR5SWKVa9QHGNN/giphy.gif)
 ## bugs o posibles problemas 
 por ahora el bug que podria tener es por el buscador que una vez encontrado el producto no redirecciona bien al detalle (no era requisito de la entrega)
