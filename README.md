@@ -6,7 +6,7 @@ en esta se pueden comprar medias ,filtrarlas por categoría y recibir un ticket 
 terminada para la entrega final del curso de coder house
 
 
-## instalación y funcionamiento
+## Instalación y funcionamiento
 para la instalación del proyecto 
 se uso :
 - [React.Js](https://es.reactjs.org/ "react.js"): npx create-react-app (nombre-del-app)
@@ -29,9 +29,9 @@ para correr el proyecto, dentro de http://localhost:3000
 
 ![gif de compra](https://media.giphy.com/media/lzfHAR5SWKVa9QHGNN/giphy.gif)![gif de compra](https://media.giphy.com/media/LrQnZPKjGrITjcY56e/giphy.gif)
 
-## bugs o posibles problemas 
+## Bugs o posibles problemas 
 por ahora el bug que podria tener es por el buscador que una vez encontrado el producto no redirecciona bien al detalle (no era requisito de la entrega)
 
 
-## hoja de ruta 
+## Hoja de ruta 
 apunta a un e-commerce con mas rutas de navegación
