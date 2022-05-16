@@ -1,13 +1,13 @@
 # Lyon app
-La aplicacion es un e-commerce para la venta de medias
-en esta se pueden comprar medias ,filtrarlas por categoria y recibir un ticket como comprobante 
+La aplicación es un e-commerce para la venta de medias
+en esta se pueden comprar medias ,filtrarlas por categoría y recibir un ticket como comprobante 
 
-## Estado de la aplicacion 
+## Estado de la aplicación 
 terminada para la entrega final del curso de coder house
 
 
-## instalacion y funcionamiento
-para la instalacion del proyecto 
+## instalación y funcionamiento
+para la instalación del proyecto 
 se uso :
 - [React.Js](https://es.reactjs.org/ "react.js"): npx create-react-app (nombre-del-app)
 - [Firebase](https://firebase.google.com/?hl=es-419&gclid=CjwKCAiAo4OQBhBBEiwA5KWu_xKibV21aa2dJrbKnZTjvVf-3dajbbfG4p3jDhkG2gh3Sn9fnn33uRoCcf8QAvD_BwE&gclsrc=aw.ds "Firebase"): npm i firebase 
@@ -17,10 +17,10 @@ se uso :
 - [Sweetaler2](https://sweetalert2.github.io/ "Sweetaler2"): npm install sweetalert2
 para inicializar el proyecto usar npm start
 
-todas estas tecnologias fueron descargadas para luegos se llamadas dentro de la aplicacion a través de imports
+todas estas tecnologias fueron descargadas para luegos se llamadas dentro de la aplicación a través de imports
 
 1. Clona el repositorio 
-2. En la raiz del proyeco corré el comando 
+2. En la raiz del proyecto corré el comando 
 	`npm install`
 	Para que se descarguen todas las dependencias del proyecto 
 3. Luego usa 
